@@ -7,7 +7,7 @@ int main() {
 	float a, b, an;
 	cin >> a >> b;
 	if (b == 0) {
-		cout << "На ноль делить нельзя";
+		cout << "Невозможная операция";
 	}
 	else {
 		an = a / b;
