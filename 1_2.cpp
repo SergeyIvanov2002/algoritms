@@ -2,16 +2,18 @@
 
 using namespace std;
 
-int main() {
+int main() 
+{
 	setlocale(LC_ALL, "Russian");
-	float a, b, an;
+	float a, b;
 	cin >> a >> b;
-	if (b == 0) {
+	if (b == 0) 
+	{
 		cout << "Невозможная операция";
 	}
-	else {
-		an = a / b;
-		cout << an;
+	else 
+	{
+		cout << a / b;
 	}
 	return 0;
 }
